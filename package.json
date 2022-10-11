@@ -1,0 +1,19 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "description": "Using react as front-end and NodeJS as back end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srishtiparti/React-Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srishtiparti/React-Projects/issues"
+  },
+  "homepage": "https://github.com/srishtiparti/React-Projects#readme"
+}

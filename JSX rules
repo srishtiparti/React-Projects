@@ -1,0 +1,6 @@
+### Rules
+
+Always return single item. can't return- retunn<div></div><div></div>
+use camelCase for html attribute eg onclick is onClick
+class id className in JSX
+close every element!!

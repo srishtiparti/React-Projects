@@ -1,0 +1,8 @@
+### Terminal command line commands
+PWD = full pathname to current working Directory
+LS = list of directories
+MKDIR = Create a Directory/Folder
+CD = Change a Directory
+CD .. - Navigate to Parent/One level Up
+Clear = clear console
+Arrow up/down - previous commands

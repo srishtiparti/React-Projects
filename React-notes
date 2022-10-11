@@ -1,0 +1,4 @@
+you don't need to import react from 'react' anymore
+
+### Function-
+for react to know that the function is special -component- we capitalize the first letter - eg function Greeting(){}
