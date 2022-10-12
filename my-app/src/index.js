@@ -4,28 +4,31 @@ import ReactDom from 'react-dom'
 // For CSS
 import './index.css' 
 
+const firstBook={
+  img: "https://m.media-amazon.com/images/I/910+Ze+BVGL._AC_UL480_FMwebp_QL65_.jpg",
+author :'Scott Pratt',
+title :'An Innocent Client: A Legal Thriller (Joe Dillard Series Book 1)'
+}
 // Nested Components, React Tools
 function BookList() {
     return (
       <section className='booklist'>
-        <Book/>
-        <Book/>
-        <Book/>
+        <Book 
+        img={firstBook.img} 
+        title={firstBook.title} 
+        author={firstBook.author}/>
       </section>
     )
 }
 
-const Book =() =>{
+
+const Book =(props) =>{
+  console.log(props)
   return <article className='book'>
-    <Image/>
-    <Title/>
-    <Author/>
+      <img src= {props.img} alt="" />
+      <h1>{props.title}</h1>
+    <h4>{props.author.toUpperCase}</h4>
   </article>
 }
 
-const Image=()=>
-  <img src="https://m.media-amazon.com/images/I/910+Ze+BVGL._AC_UL480_FMwebp_QL65_.jpg" alt="" />
-
-const Author =() => <h4>Scott Pratt</h4>
-const Title =() => <h1>An Innocent Client: A Legal Thriller (Joe Dillard Series Book 1)</h1>
 ReactDom.render( < BookList / > , document.getElementById('root'))
