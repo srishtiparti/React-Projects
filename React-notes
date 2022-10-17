@@ -1,10 +1,32 @@
 you don't need to import react from 'react' anymore
 
 ### Function-
+
 for react to know that the function is special -component- we capitalize the first letter - eg function Greeting(){}
 
 ### react events
+
 https://reactjs.org/docs/events.html
 
 to deploy ->
 npm run build
+
+## Hooks
+
+With Hooks, you can extract stateful logic from a component so it can be tested independently and reused. Hooks allow you to reuse stateful logic without changing your component hierarchy. This makes it easy to share Hooks among many components or with the community.
+
+Hooks are functions that let you “hook into” React state and lifecycle features from function components. Hooks don't work inside classes — they let you use React without classes.
+
+### hooks-
+
+1. usestate
+
+### General rules of hooks
+
+1. starts with use
+2. component name must be uppercase to use hooks eg
+   const abc = ()=>{}
+   export default abc
+   This will give an error
+3. must be in function/component body
+4. cannot call conditionally
