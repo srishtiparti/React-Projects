@@ -30,3 +30,9 @@ Hooks are functions that let you “hook into” React state and lifecycle featu
    This will give an error
 3. must be in function/component body
 4. cannot call conditionally
+
+### onClick...
+
+we want a function to only happen when we click it.. that's why it is important to set up arror functions
+eg onClick= {()=>removeItem(id)}
+removeItem function will only be called when the button is clicked
