@@ -36,3 +36,7 @@ Hooks are functions that let you “hook into” React state and lifecycle featu
 we want a function to only happen when we click it.. that's why it is important to set up arror functions
 eg onClick= {()=>removeItem(id)}
 removeItem function will only be called when the button is clicked
+
+
+### react icons
+npm install react-icons --save
