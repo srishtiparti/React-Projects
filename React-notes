@@ -37,6 +37,17 @@ we want a function to only happen when we click it.. that's why it is important 
 eg onClick= {()=>removeItem(id)}
 removeItem function will only be called when the button is clicked
 
-
 ### react icons
+
 npm install react-icons --save
+
+### to create an object of unique values
+
+new Set(items.map((map)=>item.category))
+
+### Error -cannot destructure property as it is undefined
+
+This happens during synchronous function-
+The value isn't loaded so when we try to destruct it says it is undefined
+Add loading element.. when the loading is false (the data is fetched).. call the function
+check tabs project on how to use loading and fetch without async function
